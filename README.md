@@ -1,11 +1,11 @@
 # PPE Detection using Yolo
 
 ## Breif Description
-
+AI-based real-time PPE detection system for construction sites using YOLO object detection models. The system is trained to identify hardhats, vests, gloves, goggles, and boots. A Python/OpenCV pipeline enables offline detection, validated on 200 manually annotated images.
 
 ## Fetching the Files from the Repo
 ```bash
-git clone https://github.com/muneshreddyc/yolodetect.git
+git clone https://github.com/nishchithakrishna/yolodetect.git
 ```
 ```bash
 cd yolodetect
@@ -42,3 +42,4 @@ python GH_yolo_detect.py --model my_model.pt --source 0 --resolution 1280x720   
 ```bash
 python GH_yolo_detect.py --model my_model.pt --source usb0 --resolution 1280x720       # Windows
 ```
+
